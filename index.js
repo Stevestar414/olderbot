@@ -70,8 +70,8 @@ async function dig() {
   dig()
 }
 
-bot.on('chat', (username, message) => {
-  if (message == 'stopdigolderbot') {
-    continue_digging=false;
-  }
-})
+// bot.on('chat', (username, message) => {
+//   if (message == 'stopdigolderbot') {
+//     continue_digging=false;
+//   }
+// })
